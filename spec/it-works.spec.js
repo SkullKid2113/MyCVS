@@ -1,5 +1,5 @@
-describe("csv-parse", function() {
-    it("breaks down the file", function() {
-        expect(false).toBe(true);
+describe("A Suite", function() {
+    it("parses the file fed into it", function() {
+        expect(csv.js).toBe(parseInt);
     });
-});
+  });
