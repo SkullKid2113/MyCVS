@@ -2,9 +2,15 @@
   "name": "csv-fail-boat",
   "version": "0.0.0",
   "description": "Don't use this.",
-  "main": "src/csv.js", 
-	
-	"scripts": {
-		"it": "cd src && node csv.js"
-	}	
+  "main": "src/csv.js",
+  "scripts": {
+    "it": "cd src && node csv.js",
+    "test": "jasmine"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "jasmine": "~4.5.0"
+  }
 }

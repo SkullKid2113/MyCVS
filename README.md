@@ -7,3 +7,7 @@
 ## Requirements
 
 - NodeJS V18+
+
+# Developing
+
+- `npm install --dev-only`
