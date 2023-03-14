@@ -1,0 +1,10 @@
+{
+  "name": "csv-fail-boat",
+  "version": "0.0.0",
+  "description": "Don't use this.",
+  "main": "src/csv.js", 
+	
+	"scripts": {
+		"run": "cd src && node csv.js"
+	}	
+}
