@@ -5,6 +5,6 @@
   "main": "src/csv.js", 
 	
 	"scripts": {
-		"run": "cd src && node csv.js"
+		"it": "cd src && node csv.js"
 	}	
 }
