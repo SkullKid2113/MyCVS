@@ -1,5 +1,5 @@
-describe("A suite", function() {
-    it("does something successful with the csv", function() {
+describe("csv-parse", function() {
+    it("breaks down the file", function() {
         expect(false).toBe(true);
     });
 });
