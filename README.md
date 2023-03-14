@@ -1,2 +1,9 @@
-# MyCVS
-Teehee CVS isn't what it is
+# MyCSV 
+
+## Running
+
+`npm run it`
+
+## Requirements
+
+- NodeJS V18+
