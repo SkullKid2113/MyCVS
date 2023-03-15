@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Don't use this.",
   "main": "src/csv.js",
+  "type": "module",
   "scripts": {
     "it": "cd src && node csv.js",
     "test": "jasmine"

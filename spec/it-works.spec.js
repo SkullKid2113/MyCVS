@@ -1,6 +1,10 @@
-describe("csv-parse", function() {
-    it("reads and writes file in a csv format", function() {
+import {CSVParser} from "../src/CSVParser.js";
 
-        expect(true).toBe(true);
-        })
+describe("csv-parse", function () {
+
+    it("is a class that can be instantiated", function () {
+        const o = new CSVParser()
+        expect(o).toBeInstanceOf(CSVParser)
     })
+
+})
