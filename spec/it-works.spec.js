@@ -8,8 +8,8 @@ describe("csv-parse", function () {
     })
 
     it("returns the file path as expected when calling filePath()", function() {
-        const o = new CSVParser("banana.txt")
-        expect(o.filePath()).toEqual("banana.txt")
+        const o = new CSVParser("myfile.cvs")
+        expect(o.filePath()).toEqual("myfile.cvs")
     })
 
 })

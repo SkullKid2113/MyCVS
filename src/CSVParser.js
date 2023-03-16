@@ -1,6 +1,6 @@
 export class CSVParser {
 
-    #filePath = null;
+    #filePath = "myfile.cvs";
 
     filePath() {
         return this.#filePath
