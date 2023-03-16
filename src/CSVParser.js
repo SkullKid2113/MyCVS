@@ -1,9 +1,8 @@
 export class CSVParser {
 
     #filePath = null;
-        constructor(filePath){
-            filePath = "banana.txt";
-            this.#filePath = filePath;
+        constructor(file){
+            this.#filePath = file;
 
         }
     filePath() {
